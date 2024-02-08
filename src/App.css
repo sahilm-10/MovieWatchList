@@ -289,3 +289,10 @@ header .nav-links li:last-child {
   font-size: 3rem;
   text-align: center;
 }
+
+/* Movie All Card */
+.movie-datacard{
+  display: grid;
+  justify-content: center;
+  flex-wrap: wrap;
+}

@@ -6,13 +6,13 @@ const Header = () => {
         <div className='container'>
             <div className='inner-content'>
                 <div className='brand'>
-                    <Link to='/'>WatchList</Link>
+                    <Link to='/'>MyMovies</Link>
                 </div>
                 <ul className='nav-links'>
                     <li>
-                        <Link to="/">WatchList</Link>
+                        <Link to="/watchlist">WatchList</Link>
                     </li>
-                    
+                                        
                     <li>
                         <Link to="/watched">Watched</Link>
                     </li>

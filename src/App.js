@@ -6,6 +6,7 @@ import Watched from './components/Watched';
 import { Add } from './components/Add';
 import './lib/font-awesome/css/all.min.css'
 import { GlobalProvider } from './context/GlobalState';
+import HomePage from './components/HomePage';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<WatchList />} />
+          <Route path='/' element={<HomePage/>}/>
+          <Route path="/watchlist" element={<WatchList />} />
           <Route path="/watched" element={<Watched />} />
           <Route path="/add" element={<Add />} />
         </Routes>
